@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fca71bd4bd32566ff528ff8c923f240",
+    "content-hash": "cdfe154a1d769b46bbf75d9751bda634",
     "packages": [
         {
             "name": "elephox/cache",
-            "version": "dev-develop",
+            "version": "v0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elephox-dev/cache.git",
-                "reference": "af824f3c7775bdc315de06c190dc76996f86c675"
+                "reference": "80b0baa77d55232c7d7e0260868f8d558e9b127a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elephox-dev/cache/zipball/af824f3c7775bdc315de06c190dc76996f86c675",
-                "reference": "af824f3c7775bdc315de06c190dc76996f86c675",
+                "url": "https://api.github.com/repos/elephox-dev/cache/zipball/80b0baa77d55232c7d7e0260868f8d558e9b127a",
+                "reference": "80b0baa77d55232c7d7e0260868f8d558e9b127a",
                 "shasum": ""
             },
             "require": {
@@ -27,10 +27,6 @@
                 "php": "^8.1 <8.3",
                 "psr/cache": "^3.0"
             },
-            "provide": {
-                "psr/cache-implementation": "3.0"
-            },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -49,10 +45,10 @@
             ],
             "description": "Elephox cache library.",
             "support": {
-                "issues": "https://github.com/elephox-dev/framework/issues",
-                "source": "https://github.com/elephox-dev/framework"
+                "issues": "https://github.com/elephox-dev/cache/issues",
+                "source": "https://github.com/elephox-dev/cache/tree/v0.4.3"
             },
-            "time": "2022-05-01T19:02:26+00:00"
+            "time": "2022-04-26T12:30:07+00:00"
         },
         {
             "name": "elephox/collection",
@@ -2380,7 +2376,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "elephox/cache": 20,
         "friendsofphp/php-cs-fixer": 20
     },
     "prefer-stable": true,
